@@ -75,13 +75,12 @@
 			<div class="clear"></div>
 		</div>
 		<div class="main">
-			<h1>Hi! I'm Afolayan Stephen</h1>
+			<h1>Date: <?php date_default_timezone_set("Europe/London"); echo date("F j, Y"); ?> Time: <?php echo date("h:ia"); ?></h1>
+			<h2>Hi! I'm Afolayan Stephen</h2>
 			<h3>I'm a lover of tech, i just got my hands on an opportunity to learn,
 			and i'm loving every bit of it.</h3>
 			
 			<h3>I love hotels.ng internship</h3>
-			
-			<h6>Date: <?php date_default_timezone_set("Europe/London"); echo date("F j, Y"); ?> Time: <?php echo date("h:ia"); ?></h6>
 		</div>
 	</body>
 </html>
